@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+div.post-header {
+
+        background: white;
+        margin-top: 2px;
+        /* width: 500px; */
+        /* margin: auto; */
+        display: flex;
+        justify-content: space-between;
+
+}
+.icons-header{
+    display:flex ;
+    align-items: center;
+    
+}
+.post-img{
+    
+}
+.fa-ellipsis-vertical{
+    font-size: 30px;
+}
+.fa-brands{
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+img {
+
+    width: 100%;
+
+}
+
+div.post {
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+}
+
+div.post .post-headertxt div:first-child {
+    display: inline-block;
+    width: 70%;
+
+}
+
+div.post .post-headertxt div:last-child {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+
+
+}
+
+div.post-body {
+    padding: 5px;
+    text-align: justify;
+    margin-top: 2px;
+}
+
+div.post-icons {
+    display: inline-flex;
+    width: 30%;
+    align-items: start;
+    margin-right: 1px;
+}
+
+div.post-body {
+    padding: 5px;
+    text-align: justify;
+    margin-top: 2px;
+}
